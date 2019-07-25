@@ -16,7 +16,7 @@ var (
 	// gitCommit string
 
 	// 命令行参数
-	listenAddr  = flag.String("web.listen-port", "9001", "An port to listen on for web interface and telemetry.")
+	listenAddr  = flag.String("web.listen-port", "9002", "An port to listen on for web interface and telemetry.")
 	metricsPath = flag.String("web.telemetry-path", "/metrics", "A path under which to expose metrics.")
 	metricsNamespace = flag.String("metric.namespace", "demo", "Prometheus metrics namespace, as the prefix of metrics name")
 )

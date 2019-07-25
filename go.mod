@@ -1,4 +1,4 @@
-module github.com/circleyu/prometheus-exporter
+module prometheus-exporter
 
 go 1.12
 
